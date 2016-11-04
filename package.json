@@ -1,15 +1,15 @@
 {
-  "name": "oss-sign",
-  "version": "0.0.3",
+  "name": "aliyun-oss-sign",
+  "version": "0.0.0",
   "author": {
     "name": "余阿伟"
   },
   "dependencies": {
     "crypto": "0.0.3"
   },
-  "main": "oss-sign.js",
+  "main": "aliyun-oss-sign.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aweiu/oss-sign.git"
+    "url": "https://github.com/aweiu/aliyun-oss-sign.git"
   }
 }
