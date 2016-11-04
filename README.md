@@ -9,8 +9,8 @@ npm install aliyun-oss-sign
 ```
 import ossSign from 'aliyun-oss-sign'
 ossSign({
-  accessId: 'your accessId',
-  accessKey: 'your accessKey',
+  accessId: 'your OSSAccessKeyId',
+  accessKey: 'your OSSAccessKey',
   // 超时时间 单位：毫秒
   expiration: 300000,
   // 最大上传文件大小
@@ -19,7 +19,7 @@ ossSign({
 // 返回
 {
   policy: 'policy',
-  OSSAccessKeyId: 'OSSAccessKeyId',
+  accessId: 'OSSAccessKeyId',
   signature: 'signature'
 }
 ```

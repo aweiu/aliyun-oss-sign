@@ -14,7 +14,7 @@ module.exports = function (config) {
   })).toString('base64');
   return {
     policy: policyBase64,
-    OSSAccessKeyId: config.accessId,
+    accessId: config.accessId,
     signature: crypto.createHmac('sha1', config.accessKey).update(policyBase64).digest().toString('base64')
   };
 };
