@@ -1,6 +1,15 @@
 {
   "name": "aliyun-oss-sign",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "用于返回阿里云oss服务器签名",
+  "keywords": [
+    "oss-sign",
+    "aliyun",
+    "ali",
+    "oss",
+    "ali-oss",
+    "aliyun-oss"
+  ],
   "author": {
     "name": "余阿伟"
   },
@@ -11,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/aweiu/aliyun-oss-sign.git"
-  }
+  },
+  "license": "ISC"
 }
