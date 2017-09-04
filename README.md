@@ -13,8 +13,8 @@ ossSign({
   accessKey: 'your OSSAccessKey',
   // 超时时间 单位：毫秒
   expiration: 300000,
-  // 最大上传文件大小
-  contentLength: 2097152
+  // 最大上传文件大小 单位：字节(b)
+  contentLength: 2097152
 })
 // 返回
 {
