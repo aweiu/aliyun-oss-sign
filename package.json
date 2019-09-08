@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oss-sign",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "用于返回阿里云oss服务器签名",
   "keywords": [
     "oss-sign",
